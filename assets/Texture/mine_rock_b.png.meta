@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "492be8e3-372d-4eea-a041-0acfc64c81ce",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 76,
+  "height": 71,
+  "platformSettings": {},
+  "subMetas": {
+    "mine_rock_b": {
+      "ver": "1.0.4",
+      "uuid": "62c37440-ef89-4dbe-b74f-3ff7bc06be96",
+      "rawTextureUuid": "492be8e3-372d-4eea-a041-0acfc64c81ce",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 76,
+      "height": 70,
+      "rawWidth": 76,
+      "rawHeight": 71,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "89347fdf-6472-4181-ab56-bded7155c3ea",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 43,
+  "height": 35,
+  "platformSettings": {},
+  "subMetas": {
+    "mine_gold_s_2": {
+      "ver": "1.0.4",
+      "uuid": "e98adc30-1b2f-428f-bd93-577c8bdc1269",
+      "rawTextureUuid": "89347fdf-6472-4181-ab56-bded7155c3ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 43,
+      "height": 35,
+      "rawWidth": 43,
+      "rawHeight": 35,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
