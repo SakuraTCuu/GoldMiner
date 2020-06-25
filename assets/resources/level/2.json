@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "x": -511,
+        "y": 221,
+        "spf": "mine_gold_b_1"
+    },
+    {
+        "id": "0",
+        "x": -461,
+        "y": 67,
+        "spf": "mine_diamond_2"
+    },
+    {
+        "id": "5",
+        "x": -107,
+        "y": 101,
+        "spf": "mine_rock_b"
+    },
+    {
+        "id": "5",
+        "x": -553,
+        "y": -295,
+        "spf": "mine_rock_b"
+    },
+    {
+        "id": "6",
+        "x": -245,
+        "y": -259,
+        "spf": "shop_item_diamondvalue"
+    },
+    {
+        "id": "7",
+        "x": 503,
+        "y": -283,
+        "spf": "shop_item_speed"
+    },
+    {
+        "id": "8",
+        "x": 93,
+        "y": -321,
+        "spf": "shop_item_luckly"
+    },
+    {
+        "id": "5",
+        "x": -35,
+        "y": 19,
+        "spf": "mine_rock_b"
+    },
+    {
+        "id": "4",
+        "x": 627,
+        "y": 205,
+        "spf": "bombicon"
+    }
+]

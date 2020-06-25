@@ -14,7 +14,7 @@ export default class GameLevel {
     }
 
     public static getLevelById(id: number): cc.JsonAsset {
-        let json = cc.loader.getRes("" + id) as cc.JsonAsset;
+        let json = cc.loader.getRes("level/" + id) as cc.JsonAsset;
         return json;
     }
 

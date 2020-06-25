@@ -105,12 +105,18 @@ export default class LevelCreate extends cc.Component {
     onClickCreateBtn(): void {
         //遍历 节点  生成json数组信息
         let resultArr = [];
+
+
+
         for (let i = 0; i < this.centerContent.childrenCount; i++) {
             let item = this.centerContent.children[i];
+
+            //换算x,y实际坐标
+            let newPos = this.calcTrustPos(cc.v2(item.x, item.y), this.centerContent);
             let temp = {
                 id: item.name,
-                x: item.x,
-                y: item.y,
+                x: newPos.x,
+                y: newPos.y,
                 spf: item.getComponent(cc.Sprite).spriteFrame.name
             }
             resultArr.push(temp);
@@ -120,4 +126,12 @@ export default class LevelCreate extends cc.Component {
         console.log(resultStr)
     }
 
+    /**
+     * 换算展示时的坐标
+     * 当前x : 当前父节点宽高 = 实际x : canvas宽高
+     */
+    private calcTrustPos(pos: cc.Vec2, curParent: cc.Node): cc.Vec2 {
+        let ratio = this.node.width / curParent.width
+        return pos.mulSelf(ratio);
+    }
 }
